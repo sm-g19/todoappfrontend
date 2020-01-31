@@ -1,22 +1,66 @@
-.App {
+
+.container {
+  background-color: seashell;
+}
+/* Kanit is a google font, info found here https://github.com/sm-g19/webfontloader I've discovered that
+if I put it in the body it will pick it up for all elements*/
+
+/* keeping all classes together */
+.heading {
+  height: 50vh;
+  font-weight: bold;
+  text-align: left;
+  }
+
+.button {
+  background-color: red;
+  text-align: center;
+/* I don't think is having any effect - cos of bootstap link in header probably */
+}
+/* .btn-group-toggle {
+  I read about radio buttons and saw this but not sure how to make it work or if I actually needed it 
+
+} */
+
+.task-box {
+  background-color: palevioletred;
+  }
+  
+.done-box { 
+  background-color: blueviolet;
+  }
+
+h1 {
+  color: darkgreen;
+  font-size: 150%;
+  text-align: center;
+  }
+
+h2 {
+  color: brown;
+  font-size: 100%;
+  text-align: left;
+  padding-left: 5vw;
+  }
+  /* I'm using % because of need for relative font size */
+  
+legend {
+  color: orangered;
+  font-size: 100%;
+  text-align: left;
+}
+/* could I use legend for headers for my containers perhaps and make it a class? */
+
+/* I thought I'd give some additional font size labels a whirl to see what impact they would have */
+label {
+  color: red;
+  font-size: small;
+  text-align: left;
+}
+
+span {
+  font-family: 'Kanit', sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
