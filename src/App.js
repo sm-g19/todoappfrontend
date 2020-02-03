@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 // import TaskInput from './TaskInput';
 // import TaskList from './TaskList';
-import TaskInput from './TaskInput';
-import TaskList from './TaskList';
-import DoneList from './DoneList';
+import TaskInput from './components/TaskInput';
+import TaskList from './components/TaskList';
+import DoneList from './components/DoneList';
 
 
 function App() {
