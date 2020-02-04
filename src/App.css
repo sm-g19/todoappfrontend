@@ -44,19 +44,19 @@ h2 {
   }
   /* I'm using % because of need for relative font size */
   
-legend {
+h3 {
   color: orangered;
   font-size: 100%;
   text-align: left;
 }
-/* could I use legend for headers for my containers perhaps and make it a class? */
+/* can't use legend in jsx for headers for my containers perhaps and make it a class?
 
 /* I thought I'd give some additional font size labels a whirl to see what impact they would have */
-label {
-  color: red;
+/* label { */
+  /* color: red;
   font-size: small;
   text-align: left;
-}
+} */ */
 
 span {
   font-family: 'Kanit', sans-serif;
