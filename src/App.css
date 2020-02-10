@@ -1,15 +1,13 @@
 
 .container {
-  background-color: seashell;
+  background-color: rgb(212, 240, 212);
 }
 /* Kanit is a google font, info found here https://github.com/sm-g19/webfontloader I've discovered that
 if I put it in the body it will pick it up for all elements*/
 
 /* keeping all classes together */
 .heading {
-  height: 50vh;
-  font-weight: bold;
-  text-align: left;
+    font-weight: bold;
   }
 
 .button {
@@ -17,10 +15,6 @@ if I put it in the body it will pick it up for all elements*/
   text-align: center;
 /* I don't think is having any effect - cos of bootstap link in header probably */
 }
-/* .btn-group-toggle {
-  I read about radio buttons and saw this but not sure how to make it work or if I actually needed it 
-
-} */
 
 .task-box {
   background-color: palevioletred;
@@ -37,7 +31,7 @@ h1 {
   }
 
 h2 {
-  color: brown;
+  color: orangered;
   font-size: 100%;
   text-align: left;
   padding-left: 5vw;
@@ -45,9 +39,10 @@ h2 {
   /* I'm using % because of need for relative font size */
   
 h3 {
-  color: orangered;
+  color: teal;
   font-size: 100%;
   text-align: left;
+  padding-left: 5vw;
 }
 /* can't use legend in jsx for headers for my containers perhaps and make it a class?
 
@@ -59,8 +54,7 @@ h3 {
 } */ */
 
 span {
-  font-family: 'Kanit', sans-serif;
-  text-align: center;
+  font-family: 'Kanit', sans-serif;;
 }
 
 

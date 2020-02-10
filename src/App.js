@@ -1,25 +1,24 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
 import TaskInput from './components/TaskInput';
 import TaskList from './components/TaskList';
 import DoneList from './components/DoneList';
 
 
-function App() {
-  return (
-    <div className="container">
-      <h1>To Do List</h1>
-      <h2>Input your tasks here</h2>              
-      <TaskInput />
-      <h2>Current tasks</h2>
-      <TaskList taskName="Draw components"/>
-      <h2>Completed tasks</h2>
-      <DoneList taskDone="Review class notes"/>
-      
-    </div>
-  );
-}
 
+ function App() {
+  return (
+    <div className="toDoApp">
+    <div className="container">
+      <Header />         
+      <TaskInput />
+      <TaskList taskName="Draw components" dueDate="12/12/19"/>
+      <DoneList taskDone="Review class notes" dateDone="3/2/10"/>
+    </div>
+    </div>
+    );
+  }
 
 
 export default App;
