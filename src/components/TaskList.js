@@ -5,24 +5,25 @@ class TaskList extends React.Component {
         return (    
             <div className="row">
                 <div className="col-12 col-sm-4">
-                    <h2>Current task list</h2>
+                    <h3>To Dos</h3>
                     <p>draw wireframe</p>
                     <p>review JavaScript code</p>
-                    {/* <p className="taskName">{this.props.taskName}</p> */}
+                    <p className="taskName">{this.props.taskName}</p>
                 </div>
                 <div className="col-12 col-sm-4">
-                    <h2>Dates due</h2>
+                    <h3>Dates due</h3>
                     <p>11/11/19</p>
                     <p>2/12/19</p>
-                    {/* <p className="dueDate">{this.props.dueDate}</p> */}
+                    <p className="dueDate">{this.props.dueDate}</p>
                 </div>
                 <div className="col-12 col-sm-4">
-                    <h2>Log status</h2>
+                    <h3>Complete?</h3>
                     <button className="btn-success">Done</button>
                     <button className="btn-danger">Update</button>
                     <br></br>
                     <button className="btn-success">Done</button>
                     <button className="btn-danger">Update</button>
+                    
                 </div>
             </div>
         );
