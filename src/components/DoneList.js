@@ -9,8 +9,8 @@ class DoneList extends React.Component {
           <h3>Done!</h3>
           <p>set up Google Drive shared space</p>
           {/* <DoneList taskDone="Review class notes" />
-              <DoneList taskDone="read interview guidance" />
-          <p className="taskDone">{this.props.taskDone}</p> */}
+              <DoneList taskDone="read interview guidance" /> */}
+           <p className="taskDone">{this.props.taskDone}</p>
         </div>
         <div className="col 12 col-sm-6">
           <h3>Date</h3>

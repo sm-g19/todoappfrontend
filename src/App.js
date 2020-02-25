@@ -14,9 +14,9 @@ class App extends React.Component {
         <h2>Input items and due dates below</h2>
         <TaskInput />
         <h2>Current task list</h2>
-        <TaskList />
+        <TaskList taskName={["draw wireframe", "review JavaScript code", "create Git repository"]} />      
         <h2>Completed tasks</h2>
-        <DoneList />
+        <DoneList taskDone={["Review class notes", "read interview guidance"]} />
       </div>
     );
   }

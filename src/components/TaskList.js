@@ -6,9 +6,10 @@ class TaskList extends React.Component {
             <div className="row">
                 <div className="col-12 col-sm-4">
                     <h3>To Dos</h3>
-                    <p>draw wireframe</p>
-                    <p>review JavaScript code</p>
-                    {/* <p className="taskName">{this.props.taskName}</p> */}
+                    {/* <p>draw wireframe</p>
+                    <p>review JavaScript code</p> */}
+                    <p className="taskName">{this.props.taskName}</p>
+            
                 </div>
                 <div className="col-12 col-sm-4">
                     <h3>Due Date</h3>
