@@ -3,7 +3,7 @@ import React from 'react';
 class AddTask extends React.Component {
     state = {
         taskName: "",
-        dueDate:"18/11/19"
+        dueDate: Date
     };
 
     updateTaskName = event =>
